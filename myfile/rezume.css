@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body{
+    background-image: url('https://gamerwall.pro/uploads/posts/2022-03/1648190895_1-gamerwall-pro-p-fon-dlya-portreta-odnotonnii-krasivie-1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    font-family: 'Raleway';
+}
+
+caption{
+  padding: 10px;
+  caption-side: top;
+}
+
+abbr {
+  font-style: italic;
+ 
+}
+.mytable {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mytable td, .mytable th {
+  border: 1px solid rgb(107, 95, 95);
+  padding: 10px;
+  text-align: left;
+}
+
+.mytable th {
+  background-color: #f2f2f2;
+}
+
+hgroup{
+  padding: 10px;
+  margin: 10px;
+}
+mark{
+  background-color:rgb(235, 158, 158);
+}
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+background-color: #FFFFFF;
+background-color: rgba(255,255,255,0.68);
+box-shadow: 0 0 10px rgba(255,255,255,0.5);
+border-radius: 10px;
+padding: 10px;
+  margin: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+h3 {
+    background-color: #FFFFFF;
+    background-color: rgba(255,255,255,0.68);
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    border-radius: 10px;
+    padding: 10px;
+      margin: 10px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 10px;
+  }
+}
